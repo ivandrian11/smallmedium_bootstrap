@@ -1,0 +1,99 @@
+#navbar {
+  background-color: #fbe192;
+}
+
+#navbar-title {
+  font-family: "Anton", sans-serif;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#carousel {
+  margin-top: 32px;
+}
+
+hr {
+  margin: 0;
+  opacity: 1;
+  color: #323232;
+}
+
+.btn {
+  border-radius: 24px;
+}
+
+#contents {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.contents-item {
+  padding: 1rem;
+}
+
+.contents-item-number {
+  color: gray;
+  opacity: 0.5;
+}
+
+.contents-item-content {
+  padding-top: 1rem;
+}
+
+.contents-item-content-author {
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+.img-logo {
+  border-radius: 50%;
+}
+
+#article {
+  padding: 1rem 2rem;
+}
+
+#another {
+  padding: 1rem 0;
+}
+
+.another-discover-topic-item {
+  margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 991.98px) {
+  #carousel-right {
+    display: none;
+  }
+
+  #carousel-left {
+    margin: 0 2rem;
+  }
+
+  #another {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .card-caption {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #carousel-left-button {
+    width: 40%;
+  }
+
+  #wave {
+    margin-top: -18%;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  .article-img {
+    height: 100%;
+  }
+} */
